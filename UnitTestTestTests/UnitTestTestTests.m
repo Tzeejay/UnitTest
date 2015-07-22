@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "ViewController.h"
 
 @interface UnitTestTestTests : XCTestCase
 
@@ -35,6 +36,16 @@
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
     }];
+}
+
+
+- (void)test
+{
+    ViewController *controller = [[ViewController alloc] init];
+    
+    [controller multiplyDouble:3];
+    
+    XCTAssert(9, @"All good");
 }
 
 @end

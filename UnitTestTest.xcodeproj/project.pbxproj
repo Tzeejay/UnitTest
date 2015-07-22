@@ -14,6 +14,7 @@
 		239590E01B5F7D3A00BBCBFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239590DF1B5F7D3A00BBCBFC /* Images.xcassets */; };
 		239590E31B5F7D3A00BBCBFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239590E11B5F7D3A00BBCBFC /* LaunchScreen.xib */; };
 		239590EF1B5F7D3A00BBCBFC /* UnitTestTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 239590EE1B5F7D3A00BBCBFC /* UnitTestTestTests.m */; };
+		239590F91B5F852C00BBCBFC /* circle.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 239590F81B5F852B00BBCBFC /* circle.yaml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		239590E81B5F7D3A00BBCBFC /* UnitTestTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		239590ED1B5F7D3A00BBCBFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		239590EE1B5F7D3A00BBCBFC /* UnitTestTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestTestTests.m; sourceTree = "<group>"; };
+		239590F81B5F852B00BBCBFC /* circle.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = circle.yaml; path = UnitTestTest/circle.yaml; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				239590DC1B5F7D3A00BBCBFC /* Main.storyboard */,
 				239590DF1B5F7D3A00BBCBFC /* Images.xcassets */,
 				239590E11B5F7D3A00BBCBFC /* LaunchScreen.xib */,
+				239590F81B5F852B00BBCBFC /* circle.yaml */,
 				239590D21B5F7D3A00BBCBFC /* Supporting Files */,
 			);
 			path = UnitTestTest;
@@ -201,6 +204,7 @@
 			files = (
 				239590DE1B5F7D3A00BBCBFC /* Main.storyboard in Resources */,
 				239590E31B5F7D3A00BBCBFC /* LaunchScreen.xib in Resources */,
+				239590F91B5F852C00BBCBFC /* circle.yaml in Resources */,
 				239590E01B5F7D3A00BBCBFC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,4 +24,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (double)multiplyDouble:(double)d
+{
+    double aa = d * d;
+    
+    return aa;
+}
+
 @end

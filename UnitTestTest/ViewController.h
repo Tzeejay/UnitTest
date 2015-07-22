@@ -11,5 +11,7 @@
 @interface ViewController : UIViewController
 
 
+- (double)multiplyDouble:(double)d;
+
 @end
 
