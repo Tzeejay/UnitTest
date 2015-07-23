@@ -354,6 +354,7 @@
 				INFOPLIST_FILE = UnitTestTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.2;
 			};
 			name = Debug;
 		};
@@ -364,6 +365,7 @@
 				INFOPLIST_FILE = UnitTestTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.2;
 			};
 			name = Release;
 		};
@@ -420,6 +422,7 @@
 				239590F41B5F7D3A00BBCBFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		239590F51B5F7D3A00BBCBFC /* Build configuration list for PBXNativeTarget "UnitTestTestTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +431,7 @@
 				239590F71B5F7D3A00BBCBFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
