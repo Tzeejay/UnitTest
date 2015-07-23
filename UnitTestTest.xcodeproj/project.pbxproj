@@ -354,7 +354,7 @@
 				INFOPLIST_FILE = UnitTestTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos8.2;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -365,7 +365,7 @@
 				INFOPLIST_FILE = UnitTestTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos8.2;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
