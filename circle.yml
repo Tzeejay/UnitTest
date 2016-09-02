@@ -1,9 +1,10 @@
 machine:
     xcode:
-        version: "6.3.1"
+        version: "7.3"
         
 dependencies:
   pre:
     - brew doctor && brew prune
     - brew update
     - brew install node
+    - ndoe -v
