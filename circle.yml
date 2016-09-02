@@ -1,3 +1,9 @@
 machine:
     xcode:
         version: "6.3.1"
+        
+dependencies:
+  pre:
+    - brew doctor && brew prune
+    - brew update
+    - brew install node
