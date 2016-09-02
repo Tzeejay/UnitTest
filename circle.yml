@@ -4,7 +4,8 @@ machine:
         
 dependencies:
   pre:
-    - brew doctor && brew prune
+    - brew doctor 
+    - brew prune
     - brew update
     - brew install node
     - ndoe -v
