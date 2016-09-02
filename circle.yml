@@ -7,5 +7,5 @@ dependencies:
     - brew doctor || true
     - brew prune
     - brew update
-    - brew install node
+    - brew upgrade node
     - ndoe -v
