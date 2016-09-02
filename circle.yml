@@ -4,7 +4,7 @@ machine:
         
 dependencies:
   pre:
-    - brew doctor 
+    - brew doctor || true
     - brew prune
     - brew update
     - brew install node
