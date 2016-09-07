@@ -8,4 +8,4 @@ dependencies:
     - brew prune
     - brew update
     - brew upgrade node
-    - ndoe -v
+    - node -v
