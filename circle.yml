@@ -4,4 +4,5 @@ machine:
         
 dependencies:
   pre:
-    - brew update || brew update
+    - brew update || brew update
+
