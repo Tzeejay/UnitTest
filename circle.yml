@@ -4,5 +4,6 @@ machine:
         
 dependencies:
   pre:
-    - brew update || brew update
+    - echo "2.3.1" > ~/.ruby-version
+    -ruby -v
 
