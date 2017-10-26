@@ -1,9 +1,0 @@
-machine:
-    xcode:
-        version: "7.3"
-        
-dependencies:
-  pre:
-    - echo "2.3.1" > ~/.ruby-version
-    - ruby -v
-
