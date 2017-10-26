@@ -7,15 +7,15 @@ jobs:
     steps:
         - checkout
         - run:
-          name: Setting Ruby Version && ruby -v
-          command: echo "2.4" > ~/.ruby-version
+            name: Setting Ruby Version && ruby -v
+            command: echo "2.4" > ~/.ruby-version
                 
         - run:
-          name: xcodebuild buil test
-          command: set -o pipefail && xcodebuild -project 'UnitTestTest.xcodeproj' -scheme 'UnitTestTest' clean build test -destination 'platform=iOS Simulator,name=iPhone 7,OS=latest' CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= PROVISIONING_PROFILE= | tee $HOME/xcode_raw.log | xcpretty --color --report junit --output $HOME/results.xml
+            name: xcodebuild buil test
+            command: set -o pipefail && xcodebuild -project 'UnitTestTest.xcodeproj' -scheme 'UnitTestTest' clean build test -destination 'platform=iOS Simulator,name=iPhone 7,OS=latest' CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= PROVISIONING_PROFILE= | tee $HOME/xcode_raw.log | xcpretty --color --report junit --output $HOME/results.xml
                 
         - store_test_results:
-          path: $HOME/results.xml
+            path: $HOME/results.xml
         - store_artifacts:
-          path: $HOME/xcode_raw.log
-          destination: xcode_raw
+            path: $HOME/xcode_raw.log
+            destination: xcode_raw
