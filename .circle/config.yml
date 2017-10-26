@@ -1,4 +1,4 @@
-versoin: 2
+version: 2
 jobs:
     checkout-to-build-and-test:
         macos:
